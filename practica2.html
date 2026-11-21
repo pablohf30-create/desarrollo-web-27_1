@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* EJERCICIO 1: Selectores básicos */
+        body {
+            background-color: #f0f8ff;
+            font-family: Arial;
+        }
+
+        h1 {
+            color: darkblue;
+            text-align: center;
+        }
+
+        .texto-rojo {
+            color: red;
+            font-weight: bold;
+        }
+
+        #resaltado {
+            background-color: yellow;
+            padding: 40px;
+        }
+
+        /* EJERCICIO 2: Modelo de caja */
+        .caja {
+            width: 200px;
+            height: 100px;
+            background-color: lightgreen;
+            margin: 20px;
+            padding: 15px;
+            border: 3px solid darkgreen;
+        }
+
+        /* EJERCICIO 3: Posicionamiento */
+        .caja-relativa {
+            position: relative;
+            left: 50px;
+            top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Estilos con CSS</h1>
+
+    <p class="texto-rojo">Este texto es en rojo</p>
+    <p>texto sin estilo </p>
+    <p id="resaltado">texto Resaltado</p>
+
+    <div class="caja">Caja normal</div>
+    <div class="caja caja-relativa">Caja relativa</div>
+</body>
+</html>
